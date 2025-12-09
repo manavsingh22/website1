@@ -22,3 +22,4 @@ A personal website built with HTML, CSS, and JavaScript.
 - `styles.css` - Stylesheet
 - `script.js` - JavaScript functionality
 
+
