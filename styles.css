@@ -15,16 +15,23 @@
 
 html {
     scroll-behavior: smooth;
+    background-color: #000000;
 }
 
 body {
-    font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-    background-color: var(--bg);
-    color: var(--text);
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background-color: #000000;
+    color: #ffffff;
     min-height: 100vh;
     line-height: 1.6;
+    font-weight: 400;
+    font-variation-settings: "wght" 400, "slnt" 0;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+    background-color: transparent;
 }
 
 .top-nav {
@@ -44,14 +51,15 @@ body {
 .nav-links {
     display: flex;
     gap: 3rem;
-    font-weight: 400;
+    font-weight: 800;
     letter-spacing: 0.05em;
     font-size: 0.9rem;
+    font-variation-settings: "wght" 800, "slnt" 0;
 }
 
 .nav-links a {
     text-decoration: none;
-    color: var(--text);
+    color: #ffffff;
     text-transform: uppercase;
     transition: all 0.3s ease;
     position: relative;
@@ -96,10 +104,11 @@ body {
 .hero-name {
     font-size: clamp(4rem, 10vw, 8rem);
     line-height: 1.1;
-    letter-spacing: -0.03em;
-    font-weight: 300;
-    color: var(--text);
-    font-family: 'Space Grotesk', sans-serif;
+    letter-spacing: -0.02em;
+    font-weight: 900;
+    font-variation-settings: "wght" 900, "slnt" 0;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
     text-transform: uppercase;
 }
 
@@ -110,12 +119,13 @@ body {
 }
 
 .muted-section h2 {
-    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: clamp(1.5rem, 4vw, 2.5rem);
     letter-spacing: 0.1em;
     text-transform: uppercase;
     color: var(--text-muted);
-    font-weight: 400;
+    font-weight: 800;
+    font-variation-settings: "wght" 800, "slnt" 0;
     margin-bottom: 2rem;
     position: relative;
     display: inline-block;
